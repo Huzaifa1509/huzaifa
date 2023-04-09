@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /googleb56a786c001cc0e9.html
+Disallow: /js/
+Disallow: /images/
+Disallow: /css/
