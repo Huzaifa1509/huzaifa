@@ -6,6 +6,7 @@
 .nav-item:hover{
     color: #ffffff7d;
     font-size: 18px;
+    transform: scale(1.1);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -22,9 +23,7 @@ body{
     width: 50%;
     border-radius: 100%;
 }
-nav{
-    box-shadow: 0 10px 24px 0 rgba(182, 166, 166, 0.2);
-}
+
 
 .headingname{
     font-weight: bolder;
@@ -49,9 +48,79 @@ footer .last{
 .anchor:hover{
     color: rgb(19, 109, 194);
 }
-a img:hover{
-    transform:scale(1.1);
-}
+
 .description-about{
     font-size: 20px;
+}
+.qoute{
+    font-family:'Times New Roman';
+    color: #868484e7;
+    margin-top: 30%;
+}
+.namecol{
+    margin-top: 90%;
+    margin-bottom: 10%;
+    color: #9f9c9ce7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+}
+.logo{
+    height: 80px;
+    width: 120px;
+    
+}
+.anc{
+    display: block;
+    width: 250px;
+    height: 35px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family:'Times New Roman';
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #333;
+    background-color:#333 ;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .anc span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .anc:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #272626ee;
+    transition: all .35s;
+  }
+  
+  .anc:hover{
+    color: #fff;
+  }
+  
+  .anc:hover:after{
+    width: 100%;
+  }
+
+.head{
+    color:#8f8b8bee ;
+    font-family: 'Times New Roman';
+}
+.scrolled{
+    background-color: #212529 !important;
+    transition: .4s;
+    box-shadow: 0 10px 24px 0 rgba(182, 166, 166, 0.2);
+
+}
+.tr{
+    background-color: transparent;
+    
 }

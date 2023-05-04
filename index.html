@@ -17,13 +17,28 @@
 
 
 </head>
+<style>
+    .bg_img{
+        background: rgb(0,0,0);
+background: linear-gradient(86deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5830707282913166) 31%, rgba(255,255,255,0.01724439775910369) 100%) , url('images/mainpic.jpeg');
+       height: 100%;
+       
+        background-position: top  ;
+         background-attachment: fixed;
+         background-repeat: no-repeat; 
+}
+
+
+
+
+</style>
 <body class="bg-dark text-light">
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark tr" id="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand text-light" href="#"><b>My Portfolio</b></a>
-    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#"><img src="images/logo-removebg-preview.png" alt="logo" class="logo"></a>
+    <button class="navbar-toggler bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -47,21 +62,32 @@
     </div>
   </div>
 </nav>
+
 <!-- intro -->
 <div class="container-fluid">
-<div class="row mt-5 mb-2">
-    <div class="col-lg-6 mt-5" data-aos="fade-right"data-aos-offset="500"data-aos-easing="ease-in-sine">
-        <div class="intro text-center mt-5">
-            <h4 class="h4title">Hello Guys this is</h4>
-            <h1 class="headingname fs-3">Muhammad Huzaifa Irfan</h1>
-            <p class="typedescription">I'm a Full Stack Web Developer</p><hr>
+<div class="row mb-2 bg_img">
+    <div class="col-lg-6 mt-5" data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="intro ms-5 mt-5">
+
+            <h5 class="fs-1 qoute">
+                
+                digitize your&nbsp;<b><u>DREAMS</u></b><br>& grow up your&nbsp;<b><u>BUSINESS</u></b> 
+            </h5>
+
         </div>
     </div>
-    <div class="col-lg-6 text-center mt-5" data-aos="fade-down">
-      <img src="images/huzaifa.jpg" alt="image" class="img">
+    <div class="col-lg-6 mt-5">
+        <div class="namecol">
+            <h1 class="fs-3 text-center"  data-aos="fade-up">Muhammad Huzaifa Irfan</h1>
+            <p class="typedescription fs-4 text-center" data-aos="fade-right">Full Stack Web Developer</p>
+        </div>
+
+      <!-- <img src="images/huzaifa.jpg" alt="image" class="img"> -->
     </div>
 </div>
 </div>
+
 <!-- education -->
 <div class="container-md" id="education">
 <div class="row mt-5">
@@ -78,51 +104,61 @@
 </div>
 </div>
 <!-- about -->
-<div class="container-md">
-    <div class="row justify-content-center mt-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-5" id="about">
+<div class="container-md bgabt mb-5">
+    <div class="row abt justify-content-center align-items-center mt-5 mb-5" data-aos="fade-up" data-aos-duration="3000">
+    <div class="col-lg-8 col-md-12 col-sm-12 col-12 mt-5" id="about">
         <h3 class="headingtitle text-center">About Me &nbsp;<img src="images/about.png"></h3><hr>
         <p class="description-about">
-Hi, this is <b>Muhammad Huzaifa Irfan</b>, from Karachi, Pakistan. Im just 18 years old having a good sense in developing websites and designing them as well, by having a worthy knowledge of<b> Web-Designing,
-Web-Development, Search Engine Optimization (SEO)</b> and <b>UI/UX designing</b>, I always ensure that the websites I've created are fully dynamic, responsive, user-friendly and always remain on top of the search results. On the behalf of these valuable and worthy skills I've started a company <a href="https://www.worldoftech.company/" class="anchor text-light"><b>WORLD OF TECH</b></a> with my team members, where we are providing alot of services to our clients, for further details visit now &nbsp;<a href="https://www.worldoftech.company/"><img src="images/right-arrow.png" alt=""></a> 
-        </p><hr>
+            <h5 class="head fs-4">Having an ability to DIGITIZE your DREAMS</h5>
+Hi, this is <b>Muhammad Huzaifa Irfan</b>, from Karachi, Pakistan. I'm just 18 years old having a good sense in developing websites and designing them as well, by having a worthy knowledge of<b> Web-Designing,
+Web-Development, Search Engine Optimization (SEO)</b> and <b>UI/UX designing</b>, I always ensure that the websites I've created are fully dynamic, responsive, user-friendly and always remain on top of the search results. On the behalf of these valuable and worthy skills I've started a company <a href="https://www.worldoftech.company/" class="anchor text-light"><b><u>WORLD OF TECH</u></b></a> with my team members, where we are providing alot of services to our clients, for further details visit now &nbsp;<hr>
+        </p><a href="https://www.worldoftech.company/" class="anc"><span>Visit my Company&nbsp;<img src="images/right-arrow (1).png" alt=""></span> </a> 
     </div>
 </div>
-
+<br><br>
 </div>
 <!-- languages -->
-<div class="container-md mt-5 mb-5" data-aos="flip-left" >
+<div class="container-md mt-5 mb-5 " data-aos="flip-left" >
     <div class="col-lg-12 mt-5">
       <h3 class="headingtitle text-center mt-5">Languages, Frameworks and Softwares &nbsp;<img src="images/data-management.png"></h3>
       <p class="description text-center">Languages, Frameworks and Softwares I've been working on:</p><hr>
       <div class="container-fluid" >
     <div class="row mt-5">
-        <div class="col-lg-3 text-center" data-aos="fade-up">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
             <img src="images/html.png" alt="image"><h5 class="mt-2">HTML</h5>
         </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
             <img src="images/css-3.png" alt="image"><h5 class="mt-2">CSS</h5>
         </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
             <img src="images/java-script.png" alt="image"><h5 class="mt-2">JavaScript</h5>
         </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
-            <img src="images/figma.png" alt="image"><h5 class="mt-2">Figma</h5>
-        </div>
+
     </div>
     <div class="row mt-5">
-        <div class="col-lg-3 text-center" data-aos="fade-up">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
             <img src="images/bootstrap.png" alt="image"><h5 class="mt-2">Bootstrap</h5>
         </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
-            <img src="images/science.png" alt="image"><h5 class="mt-2">React JS</h5>
-        </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
-            <img src="images/php.png" alt="image"><h5 class="mt-2">PHP</h5>
-        </div>
-        <div class="col-lg-3 text-center" data-aos="fade-up">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
             <img src="images/mysql.png" alt="image"><h5 class="mt-2">MySQL</h5>
         </div>
+        <div class="col-lg-4 text-center" data-aos="fade-up">
+            <img src="images/php.png" alt="image"><h5 class="mt-2">PHP</h5>
+        </div>
+
+
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-4 text-center" data-aos="fade-up">
+            <img src="images/figma.png" alt="image"><h5 class="mt-2">Figma</h5>
+        </div>
+        <div class="col-lg-4 text-center" data-aos="fade-up">
+            <img src="images/science.png" alt="image"><h5 class="mt-2">React JS</h5>
+        </div>
+        <div class="col-lg-4 text-center" data-aos="fade-up">
+            <img src="images/wordpress.png" alt="image"><h5 class="mt-2">WordPress</h5>
+        </div>
+
 
     </div>
       </div>
@@ -205,7 +241,7 @@ Web-Development, Search Engine Optimization (SEO)</b> and <b>UI/UX designing</b>
                 <a href="tel:+92 316-1011776" class="anchor"><img src="images/telephone.png" alt="image"></a>
             </div>
             <div class="col-lg-8 mt-1">
-                <a href="tel:+92 316-1011776"  class="anchor"><p class="description">0316-1011776</p></a>
+                <a href="tel:+92 316-1011776"  class="anchor"><p class="description">+92 316 1011776</p></a>
             </div>
         </div>
         <div class="row">
@@ -239,6 +275,15 @@ Web-Development, Search Engine Optimization (SEO)</b> and <b>UI/UX designing</b>
 </div>
 
 <script src="js/style.js"></script>
+</script><script src="https://code.jquery.com/jquery-3.6.4.min.js" ></script>
+<script>
+    $(function() {
+        $(document).scroll(function() {
+            var $nav = $("#navbar");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > 550);
+        });
+    });
+    </script>
 </body>
 </html>
 
