@@ -6,7 +6,6 @@
 .nav-item:hover{
     color: #ffffff7d;
     font-size: 18px;
-    transform: scale(1.1);
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -80,7 +79,7 @@ footer .last{
     color: #fff;
     border: 2px solid #333;
     background-color:#333 ;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     position: relative;
     transition: all .35s;
@@ -121,6 +120,6 @@ footer .last{
 
 }
 .tr{
-    background-color: transparent;
+    background-color: #272a2c5f;
     
 }
